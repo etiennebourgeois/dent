@@ -3,14 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Etienne Bourgeois</Authors>
-    <Company>neuf-vingt</Company>
+    <Company></Company>
     <Description>This package will enable the users to get Stripped down versions of the domain name (i.e. removes the subdomains and tld). This packages users the Public suffix list (https://publicsuffix.org/list/).</Description>
     <Copyright>2021 neuf-vingt</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>Neuf-vingt.pfx</AssemblyOriginatorKeyFile>
+    <RepositoryUrl>https://github.com/etiennebourgeois/dent</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
