@@ -6,7 +6,7 @@ using System;
 
 namespace Dent
 {
-    class Domain : IDomain
+    public class Domain : IDomain
     {
         private DomainInfo _domainInfo;
 
